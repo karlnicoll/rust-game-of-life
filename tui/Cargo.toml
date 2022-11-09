@@ -1,0 +1,11 @@
+[package]
+name = "tui"
+version = "0.1.0"
+edition = "2021"
+description = "An extremely simple TUI library"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+crossterm  = { version = "0.25" }
+unicode-segmentation = "1.10.0"
+xy_utils = { path = "../xy_utils" }

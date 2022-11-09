@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "xy_utils",
+    "tui",
+    "game_of_life"
+]

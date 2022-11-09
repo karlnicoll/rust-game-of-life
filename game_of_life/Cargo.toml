@@ -1,0 +1,13 @@
+[package]
+name = "game_of_life"
+version = "0.1.0"
+edition = "2021"
+description = "A simple implementation of Conway's game of life in Rust"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+rand = "0.8.5"
+xy_utils = { path = "../xy_utils" }
+crossterm  = { version = "0.25" }
+tui = { path = "../tui" }
