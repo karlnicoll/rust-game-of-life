@@ -1,5 +1,8 @@
 # Game of Life in Rust
 
+[![codecov](https://codecov.io/gh/karlnicoll/rust-game-of-life/branch/main/graph/badge.svg?token=pMWTLjjMm2)](https://codecov.io/gh/karlnicoll/rust-game-of-life)
+![example workflow](https://github.com/karlnicoll/rust-game-of-life/actions/workflows/rust.yml/badge.svg)
+
 ![Game screenshot](data/screenshot.png)
 
 A simple Conways Game of Life implementation Written In Rust. It provides a
