@@ -292,7 +292,7 @@ pub trait Plotter {
 ///
 /// ### Example 1: Standard usage:
 ///
-/// ```
+/// ```no_run
 /// use tui::DefaultPlotter;
 /// use tui::Plotter;
 /// use xy_utils::{Dimensions, Point};

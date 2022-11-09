@@ -31,7 +31,7 @@
 //! objects that, given a "paintbrush", a displayable object, and a set of
 //! coordinates. Will draw it onto the screen.
 //!
-//! ```
+//! ```no_run
 //! use tui::{DefaultPlotter, Paintbrush, Plotter};
 //! use xy_utils::Point;
 //!
@@ -60,7 +60,7 @@
 //! Perhaps the most basic component. Draw stuff within a boundary defined by a
 //! point and size:
 //!
-//! ```
+//! ```no_run
 //! use tui::{DefaultPlotter, Paintbrush, Plotter};
 //! use tui::components::Canvas;
 //! use xy_utils::{Dimensions, Point};
@@ -78,7 +78,7 @@
 //!
 //! A basic text output box:
 //!
-//! ```
+//! ```no_run
 //! use tui::{DefaultPlotter, Paintbrush, Plotter};
 //! use tui::components::TextLabel;
 //! use xy_utils::{Dimensions, Point};
@@ -98,7 +98,7 @@
 //! A label is size-aware, so attempting to write too much data into the label will
 //! result in it being truncated.
 //!
-//! ```
+//! ```no_run
 //! # use tui::{DefaultPlotter, Paintbrush, Plotter};
 //! # use tui::components::TextLabel;
 //! # use xy_utils::{Dimensions, Point};
